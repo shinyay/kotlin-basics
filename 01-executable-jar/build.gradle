@@ -1,0 +1,20 @@
+group 'com.shinyay.sample.kotlin'
+version '1.0-SNAPSHOT'
+
+def main_class_name = "com.shinyay.sample.helloworld.HelloKotlinKt"
+
+apply plugin: 'kotlin'
+apply plugin: 'application'
+
+mainClassName = main_class_name
+
+jar {
+    manifest {
+        attributes 'Main-Class': main_class_name
+    }
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+}
