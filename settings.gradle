@@ -1,4 +1,6 @@
 rootProject.name = 'kotlin-basics'
 
-include ':01-executable-jar'
-include ':02-spek'
+include '01-executable-jar'
+include '02-spek'
+include '03-variable'
+
