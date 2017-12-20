@@ -1,13 +1,12 @@
 package com.shinyay.sample.spek
 
-import java.util.*
 
 fun add(x: Int, y: Int): Int = x + y
 
-fun main(args: Array<String>) {
-    val random = Random()
-    val x = random.nextInt()
-    val y = random.nextInt()
+fun subtract(x: Int, y: Int): Int = x - y
 
-    println("$x + $y = ${add(x, y)}")
-}
+fun multiple(x: Int, y: Int): Int = x * y
+
+fun divide(x: Int, y: Int): Int = x / y
+
+fun remainder(x: Int, y: Int): Int = x % y
