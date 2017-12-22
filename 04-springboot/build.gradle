@@ -12,7 +12,7 @@ buildscript {
     }
 }
 
-group 'com.shinyay.sample.kotlin'
+group 'com.shinyay.basics.kotlin.springboot'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'kotlin'

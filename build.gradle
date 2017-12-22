@@ -1,4 +1,4 @@
-group 'com.shinyay.sample.kotlin'
+group 'com.shinyay.basics.kotlin'
 version '1.0-SNAPSHOT'
 
 buildscript {
