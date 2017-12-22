@@ -1,3 +1,6 @@
+group 'com.shinyay.basics.kotlin.springboot'
+version ''
+
 buildscript {
     ext {
         springBootVersion = '1.5.9.RELEASE'
@@ -11,9 +14,6 @@ buildscript {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
     }
 }
-
-group 'com.shinyay.basics.kotlin.springboot'
-version '1.0-SNAPSHOT'
 
 apply plugin: 'kotlin-spring'
 apply plugin: 'org.springframework.boot'

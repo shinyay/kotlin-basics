@@ -1,6 +1,3 @@
-group 'com.shinyay.basics.kotlin'
-version '1.0-SNAPSHOT'
-
 buildscript {
     ext.kotlin_version = '1.2.10'
 
@@ -16,6 +13,9 @@ apply plugin: 'application'
 mainClassName = "HelloKotlinKt"
 
 allprojects {
+    group 'com.shinyay.basics.kotlin'
+    version '1.0.0'
+
     apply plugin: 'kotlin'
     apply plugin: 'application'
     apply plugin: 'idea'

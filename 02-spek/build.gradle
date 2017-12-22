@@ -1,5 +1,4 @@
 group 'com.shinyay.basics.kotlin.spek'
-version '1.0-SNAPSHOT'
 
 def main_class_name = "com.shinyay.sample.spek.SimpleCalcKt"
 
