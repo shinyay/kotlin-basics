@@ -8,6 +8,10 @@
       <module name="02-spek_test" target="1.8" />
       <module name="03-variable_main" target="1.8" />
       <module name="03-variable_test" target="1.8" />
+      <module name="04-springboot_main" target="1.8" />
+      <module name="04-springboot_test" target="1.8" />
+      <module name="kotlin-basics-04-springboot_main" target="1.8" />
+      <module name="kotlin-basics-04-springboot_test" target="1.8" />
       <module name="kotlin-basics_main" target="1.8" />
       <module name="kotlin-basics_test" target="1.8" />
     </bytecodeTargetLevel>
