@@ -3,9 +3,6 @@ version '1.0-SNAPSHOT'
 
 def main_class_name = "com.shinyay.sample.helloworld.HelloKotlinKt"
 
-apply plugin: 'kotlin'
-apply plugin: 'application'
-
 mainClassName = main_class_name
 
 jar {
